@@ -11,10 +11,10 @@ function checkUserCreds (username,password){
                 
     var message = document.getElementById("message");
     if(username === systemUsername && password === systemPassword){
-        message.textContent = "✅ Login successful!";
+        message.textContent = "Login successful!";
         message.className = "success";
     } else {
-    message.textContent = "❌ Username or password is incorrect.";
+    message.textContent = "Username or password is incorrect.";
     message.className = "error";
     }
 }
